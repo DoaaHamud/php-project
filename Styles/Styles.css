@@ -1,0 +1,56 @@
+body {
+
+    background-color: rgb(148, 204, 231);
+}
+header {
+    text-align: center;
+    margin-top: 3em;
+    color: rgb(252, 226, 190);
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main fieldset {
+    width: 30%;
+    height: 25em;
+    margin-top: 3em;
+    border-radius: 1em;
+    border: solid 0.5em #171010;
+    background-color: antiquewhite;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: larger;
+    font-weight: bold;
+    line-height: 2em;
+
+}
+main fieldset ul {
+    /* background-color: red; */
+    height: 10%;
+    width: 90%;
+    list-style: none;
+    margin-bottom: 50%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    gap: 1em;
+    margin: 0 0 0 2em;
+    padding: 0;
+    line-height: 1em;
+    gap: 0.5em;
+}
+main fieldset ul li {
+    background-color: rgb(148, 204, 231);
+    border: solid 0.05em antiquewhite;
+    height: 1.5em;
+    width: 90%;
+    border-radius: 0.2em;
+
+   
+   
+    
+   
+}
