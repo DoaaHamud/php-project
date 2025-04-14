@@ -1,3 +1,13 @@
+<?php
+$name="Doaa Alali";//string
+$age=28;//integar
+$job="Backend Developer";//string
+$city="Damascus";//string
+$experience="1.5 year";//string
+$driver="none";//string
+$skill="Django";//string
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,53 +24,40 @@
     </header>
     <main>
         <fieldset>
-            <?php $name="Doaa Alali"?>
-            <label for="">Name:<?php echo "$name"?></label>\\
-            <?php echo gettype($name); ?>
-
-
+           
+            <label for="">Name:<?="$name"?></label>
             <br>
-            <?php $age=28?>
-            <label for="">Age:<?php echo "$age"?></label>\\
-            <?php echo gettype($age); ?>
+            <label for="">Age:<?="$age"?></label>
             <br>
-            <?php $job="Backend Developer"?>
-            <label for="">Job Title:<?php echo "$job"?></label>\\
-            <?php echo gettype($job); ?>
+            <label for="">Job Title:<?="$job"?></label>
             <br>
-            <?php $city="Damascus"?>
-            <label for="">City:<?php echo "$city"?></label>\\
-            <?php echo gettype($city); ?>
+            <label for="">City:<?="$city"?></label>
             <br>
-            <?php $experience="1.5 year"?>
-            <label for="">Years of Experience:<?php echo "$experience"?></label>\\
-            <?php echo gettype($experience); ?>
+            <label for="">Years of Experience:<?="$experience"?></label>
             <br>
-            <?php $driver="none"?>
-            <label for="">driver license:<?php echo "$driver"?></label>\\
-            <?php echo gettype($driver ); ?>
+            <label for="">driver license:<?="$driver"?></label>
             <br>
-            <?php 
-            $skill=["Django","python","ui/ux"];?>
-            <label for="">Skill:
-            <!-- <?php
-           // echo"<pre>";
-            //print_r($skill);
-            //echo"</pre>";
-            ?> -->
-            
-            <ul>
-                <li>Django</li>
-                <li>Python</li>
-                <li>UI/UX</li>
-            </ul>
-            </label>
-            
-            
-            
-
+            <label for="">Skill:<?="$skill"?></</label>
         </fieldset>
     </main>
     
 </body>
 </html>
+            
+
+
+           
+            
+           
+            
+           
+            
+           
+            
+            
+            
+           
+            
+            
+            
+            
